@@ -1,11 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
 namespace GStore.Models;
+
 [Table("produto_foto")]
-
-
  public class ProdutoFoto
 {   
     [Key]

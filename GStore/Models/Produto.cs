@@ -2,9 +2,9 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
     namespace GStore.Models;
-    [Table("produto")] public class Produto
-    
-    {
+    [Table("produto")]
+    public class Produto
+        {
     [Key]      public int Id  { get; set; }
     [Required(ErrorMessage = "por Favor, infome a categoria")]
     
