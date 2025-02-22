@@ -20,3 +20,14 @@ Criar a camada de dados (criar as classes na models)
     Produto
     ProdutoFoto
     Usuario
+
+    Criar um contexto ma pasta Data 
+
+    Configurar a connectionString no appsetting.json
+
+    Configurar os servidores de Contexto e Identity no Program.csproj
+    Executar o Xampp e MySql
+
+    Abrir o terminal:
+        cd GStore
+        dotnet watch run
