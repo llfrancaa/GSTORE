@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-    namespace GStore.Models;
+    namespace AGAPE.Models;
     [Table("produto")]
     public class Produto
         {

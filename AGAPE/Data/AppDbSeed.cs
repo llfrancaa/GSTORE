@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace GStore.Models;
+namespace AGAPE.Models;
 
 public class AppDbSeed
 {
@@ -180,14 +180,14 @@ public class AppDbSeed
         List<Usuario> usuarios = new() {
             new Usuario(){
                 Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
-                Email = "otaviomarianooo91@gmail.com",
-                NormalizedEmail = "OTAVIOMARIANOOO91@GMAIL.COM",
-                UserName = "otaviomriano",
-                NormalizedUserName = "OTAVIOMARIANO",
+                Email = "lucasurc@hotmail.com",
+                NormalizedEmail = "LUCASURC@HOTMAIL.COM",
+                UserName = "lucasfranca",
+                NormalizedUserName = "LUCASFRANCA",
                 LockoutEnabled = true,
                 EmailConfirmed = true,
-                Nome = "Otavio Augusto Mariano",
-                DataNascimento = DateTime.Parse("20/01/1991"),
+                Nome = "Lucas de França Cardoso",
+                DataNascimento = DateTime.Parse("18/01/1996"),
                 Foto = "/img/usuarios/ddf093a6-6cb5-4ff7-9a64-83da34aee005.png"
             }
         };

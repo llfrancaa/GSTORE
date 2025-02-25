@@ -1,5 +1,5 @@
-using GStore.Data;
-using GStore.Models;
+using AGAPE.Data;
+using AGAPE.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //serviço de conexão com o banco de dados
-string conexao = builder.Configuration.GetConnectionString("GStoreConn");
+string conexao = builder.Configuration.GetConnectionString("AGAPEConn");
 builder.Services.AddDbContext<AppDbContext>(
     options => options.UseMySQL(conexao)
 );

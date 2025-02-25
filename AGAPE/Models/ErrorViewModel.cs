@@ -1,4 +1,4 @@
-namespace GStore.Models;
+namespace AGAPE.Models;
 
 public class ErrorViewModel
 {

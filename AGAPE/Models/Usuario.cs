@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace GStore.Models;
+namespace AGAPE.Models;
 
 public class Usuario : IdentityUser
 {

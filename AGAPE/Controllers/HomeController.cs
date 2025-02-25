@@ -1,10 +1,10 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using GStore.Models;
-using GStore.Data;
+using AGAPE.Models;
+using AGAPE.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace GStore.Controllers;
+namespace AGAPE.Controllers;
 
 public class HomeController : Controller
 {

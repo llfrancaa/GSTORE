@@ -1,11 +1,11 @@
 git config --global user.name llfrancaa
 git config --global user.email lucasurc@hotmail.com
 
-dotnet new sln --name GStore
-dotnet new mvc -o GStore
-dotnet sln add GStore\GStore.csproj
+dotnet new sln --name AGAPE
+dotnet new mvc -o AGAPE
+dotnet sln add AGAPE\AGAPE.csproj
 
-cd GStore
+cd AGAPE
 
 dotnet watch run
 
@@ -29,5 +29,5 @@ Criar a camada de dados (criar as classes na models)
     Executar o Xampp e MySql
 
     Abrir o terminal:
-        cd GStore
+        cd AGAPE
         dotnet watch run
