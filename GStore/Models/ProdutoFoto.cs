@@ -10,7 +10,7 @@ namespace GStore.Models;
     public int Id {get; set;}
 
     [Required(ErrorMessage = "por favor, informe o produto")]
-    public int Produtoid { get; set; }
+    public int ProdutoId { get; set; }
     
     [ForeignKey ("ProdutoId")]
     public Produto Produto{ get; set;}

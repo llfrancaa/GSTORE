@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
     [Key]      public int Id  { get; set; }
     [Required(ErrorMessage = "por Favor, infome a categoria")]
     
-    public int CatergoriaId { get; set; }   
+    public int CategoriaId { get; set; }   
     [ForeignKey("CategoriaId")]
     public Categoria Categoria {get; set; }
 
@@ -37,5 +37,7 @@ using System.ComponentModel.DataAnnotations.Schema;
     [Column(TypeName = "decimal(10,2)")]
     public decimal ValorVenda { get; set; }
     
-    
+    public bool Destaque {get; set; } = false;
+
+    public List<ProdutoFoto> Fotos { get; set;}
     }
