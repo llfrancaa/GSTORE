@@ -1,5 +1,5 @@
-git config --global user.name AugustoMariano
-git config --global user.email otaviomarianooo91@gmail.com
+git config --global user.name llfrancaa
+git config --global user.email lucasurc@hotmail.com
 
 dotnet new sln --name GStore
 dotnet new mvc -o GStore
